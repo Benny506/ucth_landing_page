@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* General scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the vertical scrollbar */
+  height: 10px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+  border-radius: 5px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4f4f4f; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Darker thumb color on hover */
+}
+
+button{
+  border: none;
+  outline: none;
+}
+
+button:hover{
+  border: none;
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./assets/fonts/SourceSansPro.ttf');
+}
+
+input::placeholder, textarea::placeholder{
+  color: #ABABAB;
+  font-family: SourceSansPro;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+.bg-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clickable{
+  cursor: pointer;
+}
